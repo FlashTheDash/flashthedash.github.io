@@ -78,9 +78,24 @@ h2 {
   margin-left: 30px;
 }
 
-.favorites-list-item {
+.list-item {
   font-weight: bold;
   margin-top: 10px;
+}
+
+.media-container {
+  margin-top: 40px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.media {
+  background-color: #34435D;
+  color: #CCDBF6;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 5px;
 }
 
 .footer {
@@ -113,5 +128,8 @@ h2 {
   .content {
     margin-left: 15px;
     margin-right: 15px;
+  }
+  .media-container {
+    flex-direction: column;
   }
 }
